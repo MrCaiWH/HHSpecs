@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes/**/*.{h,m}"
   s.resource  = "Classes/HHImage.bundle"
   s.requires_arc = true
+  s.dependency 'AFNetworking', '~> 2.3'
 end
