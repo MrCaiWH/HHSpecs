@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.source       = { :git => "https://github.com/huanghuacaiCoder/HHO2View.git", :tag => "#{s.version}" }
   s.source_files  = "Classes/**/*.{h,m}"
-  # s.resource  = "Classes/HHImage.bundle"
+  s.resource  = "Classes/HHImage.bundle"
   s.requires_arc = true
 end
