@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaAsyncSocket', '~>7.5.0'
 
   s.subspec 'Category' do |cs|
-       #cs.source_files = 'HHO2View/Classes/Category/*.{h,m}'
+       cs.source_files = 'Classes/Category/**/*.{h,m}'
   end
 end
